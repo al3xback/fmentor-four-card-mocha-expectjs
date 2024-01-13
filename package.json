@@ -1,7 +1,7 @@
 {
 	"name": "fmentor-four-card-mocha-expectjs",
 	"version": "1.0.0",
-	"description": "four card feature section using mocha and expect.js testing",
+	"description": "four card feature section using mocha and expect.js",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
