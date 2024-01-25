@@ -43,8 +43,9 @@ describe('DOM', () => {
 	});
 
 	it("should have a word 'Artificial Intelligence' in section description element", () => {
-		const sectionDesc =
-			document.querySelector('.section__desc').textContent;
+		const sectionDesc = document.querySelector(
+			'.cards-summary__desc'
+		).textContent;
 
 		expect(sectionDesc).to.contain('Artificial Intelligence');
 	});
